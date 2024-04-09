@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(163, 43, 187);
+}
+#texto {
+  font-size: large;
+  font-family: "Arial", "sans-serif", "Helvetica";
+  display: flex;
+  justify-content: center;
+}
+.foto {
+  display: flex;
+  justify-content: center;
+}
