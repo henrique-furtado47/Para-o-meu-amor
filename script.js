@@ -13,6 +13,20 @@ if (
   alert(
     "Você acertou! A pessoa mais incrível do mundo é o amor da minha vida!"
   );
+} else if (
+  nome == "Henrique" ||
+  nome == "henrique" ||
+  nome == "HENRIQUE" ||
+  nome == "rique" ||
+  nome == "Rique" ||
+  nome == "RIQUE"
+) {
+  alert(
+    "Você ta quase certo! A pessoa mais incrível do mundo é a minha gatinha Bibi e você mesmo!"
+  );
 } else {
   alert("Você errou! A pessoa mais incrível do mundo é a minha gatinha Bibi!");
+}
+function mudar() {
+  document.getElementById("titulo").innerHTML = "EU TE AMOOOOOO MEU AMOR!";
 }
