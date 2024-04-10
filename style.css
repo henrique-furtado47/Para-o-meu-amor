@@ -58,13 +58,23 @@ footer {
   display: flex;
   justify-content: center;
 }
-.album {
+.container {
   display: flex;
-  justify-content: right;
-  margin: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-  color: aliceblue;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container .item {
+  flex: 1 0 21%; /* O valor aqui pode ser ajustado para controlar o número de imagens por linha */
+  margin: auto;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+.container .item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
 }
 
 @media only screen and (max-device-width: 600px) {

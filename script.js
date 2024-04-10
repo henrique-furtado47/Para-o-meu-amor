@@ -30,3 +30,6 @@ if (
 function mudar() {
   document.getElementById("titulo").innerHTML = "EU TE AMOOOOOO MEU AMOR!";
 }
+function tira() {
+  document.getElementById("titulo").innerHTML = "";
+}
