@@ -33,3 +33,15 @@ function mudar() {
 function tira() {
   document.getElementById("titulo").innerHTML = "";
 }
+
+function foto(ft) {
+  document.getElementById("foto-grande").style.display = "block";
+  '<img src="/fotos/' + ft + '" alt="Imagem 1" />';
+  document.getElementById("foto-grande").innerHTML =
+    '<img src="/fotos/' + ft + '" alt="Imagem 1" />';
+}
+
+function tirarfoto() {
+  document.getElementById("foto-grande").style.display = "none";
+  document.getElementById("foto-grande").innerHTML = "";
+}
